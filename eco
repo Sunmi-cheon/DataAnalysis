@@ -1,8 +1,8 @@
-import requests
+import json
+import pandas as pd
 
 url = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
-api_key = "a3ERY4puvBY*********************************************************"
-
+api_key = "	4d7a4f6a4d73636837315345667859"
 params = {
     'serviceKey': api_key,
     'returnType': 'json',
